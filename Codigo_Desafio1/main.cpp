@@ -1,8 +1,3 @@
-#include <Adafruit_LiquidCrystal.h>  // Librería para el control del LCD
-
-// Definición de los pines del LCD
-Adafruit_LiquidCrystal lcd(7, 8, 9, 10, 11, 12);  // RS, E, D4, D5, D6, D7
-
 // Pines de conexión
 const int pinSenal = A0;     // Pin donde se recibe la señal analógica
 const int botonAdquirir = 2;  // Pin del botón para iniciar la adquisición
